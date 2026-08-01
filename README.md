@@ -23,8 +23,8 @@ For example, to compile and run a file in Lab 1:
 # Navigate to the lab directory
 cd "lab 1"
 
-# Compile the C++ file
-g++ your_filename.cpp
+# Compile the C file
+gcc your_filename.c
 
 # Execute the compiled output
 ./a.out
