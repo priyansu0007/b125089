@@ -1,30 +1,72 @@
 # OOPS Lab Assignments 🚀
 
-Welcome to my Object-Oriented Programming Systems (OOPS) lab repository. This space contains all my practical assignments, coursework, and projects for my computer science curriculum at IIIT Bhubaneswar.
+Welcome to my **Object-Oriented Programming Systems (OOPS)** lab repository. This repository contains all my lab assignments, practical programs, and coursework completed as part of the **B.Tech CSE curriculum at IIIT Bhubaneswar**.
+
+---
 
 ## 📁 Repository Structure
 
-The workspace is organized chronologically by lab sessions to maintain a clean directory. 
+```text
+OOPS-Lab/
+├── lab 1/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── q3.cpp
+│   ├── ...
+│   └── q10.cpp
+│
+├── lab_2/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── ...
+│   └── q10.cpp
+│
+├── .gitignore
+└── README.md
+```
 
+> Each lab folder contains the source files for the corresponding lab session.
+
+---
 
 ## 🛠️ Technologies Used
 
-- **Language:** C 
-- **Environment:** VS Code
-- **Compiler:** GCC (g++)
+- **Language:** C++
+- **IDE/Editor:** Visual Studio Code
+- **Compiler:** G++
+
+---
 
 ## 🚀 How to Compile and Run
 
-To test the code locally on your machine, navigate to the specific lab directory and compile the source file. 
-
-For example, to compile and run a file in Lab 1:
+1. Navigate to the desired lab folder:
 
 ```bash
-# Navigate to the lab directory
 cd "lab 1"
+```
 
-# Compile the C file
-gcc your_filename.c
+2. Compile the program:
 
-# Execute the compiled output
-./a.out
+```bash
+g++ q1.cpp -o q1
+```
+
+3. Run the executable:
+
+```bash
+./q1
+```
+
+---
+
+## 📌 Notes
+
+- Programs are named sequentially (`q1.cpp`, `q2.cpp`, ...).
+- Each lab is organized in its own directory for better structure.
+- More lab folders and assignments will be added as the course progresses.
+
+---
+
+## 📄 License
+
+This repository is intended for educational purposes.
