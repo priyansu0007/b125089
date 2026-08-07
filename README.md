@@ -9,15 +9,16 @@ Welcome to my **Object-Oriented Programming Systems (OOPS)** lab repository. Thi
 ```text
 OOPS-Lab/
 ├── lab 1/
-│   ├── q1.cpp
-│   ├── q2.cpp
-│   ├── q3.cpp
+│   ├── q1.c
+│   ├── q2.c
+│   ├── q3.c
 │   ├── ...
-│   └── q10.cpp
+│   └── q10.c
 │
 ├── lab_2/
 │   ├── q1.cpp
 │   ├── q2.cpp
+│   ├── q3.cpp
 │   ├── ...
 │   └── q10.cpp
 │
@@ -31,29 +32,37 @@ OOPS-Lab/
 
 ## 🛠️ Technologies Used
 
-- **Language:** C++
+- **Languages:** C, C++
 - **IDE/Editor:** Visual Studio Code
-- **Compiler:** G++
+- **Compilers:** GCC, G++
 
 ---
 
 ## 🚀 How to Compile and Run
 
-1. Navigate to the desired lab folder:
+### For C Programs (Lab 1)
 
 ```bash
+# Navigate to the lab folder
 cd "lab 1"
+
+# Compile
+gcc q1.c -o q1
+
+# Run
+./q1
 ```
 
-2. Compile the program:
+### For C++ Programs (Lab 2 and onwards)
 
 ```bash
+# Navigate to the lab folder
+cd lab_2
+
+# Compile
 g++ q1.cpp -o q1
-```
 
-3. Run the executable:
-
-```bash
+# Run
 ./q1
 ```
 
@@ -61,8 +70,9 @@ g++ q1.cpp -o q1
 
 ## 📌 Notes
 
-- Programs are named sequentially (`q1.cpp`, `q2.cpp`, ...).
-- Each lab is organized in its own directory for better structure.
+- Programs are named sequentially (`q1`, `q2`, ..., `q10`) within each lab.
+- **Lab 1** contains C programs (`.c`).
+- **Lab 2 and subsequent labs** contain C++ programs (`.cpp`).
 - More lab folders and assignments will be added as the course progresses.
 
 ---
