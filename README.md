@@ -22,6 +22,12 @@ OOPS-Lab/
 │   ├── ...
 │   └── q10.cpp
 │
+├── lab_3/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── q3.cpp
+│   ├── ...
+│   └── q10.cpp
 ├── .gitignore
 └── README.md
 ```
