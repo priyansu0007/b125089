@@ -11,24 +11,33 @@ OOPS-Lab/
 ├── lab 1/
 │   ├── q1.c
 │   ├── q2.c
-│   ├── q3.c
 │   ├── ...
 │   └── q10.c
 │
 ├── lab_2/
 │   ├── q1.cpp
 │   ├── q2.cpp
-│   ├── q3.cpp
 │   ├── ...
 │   └── q10.cpp
 │
 ├── lab_3/
 │   ├── q1.cpp
 │   ├── q2.cpp
-│   ├── q3.cpp
 │   ├── ...
 │   └── q10.cpp
-├── .gitignore
+│
+├── lab_4/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── ...
+│   └── q10.cpp
+│
+├── lab_5/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── ...
+│   └── q10.cpp
+│
 └── README.md
 ```
 
@@ -59,10 +68,10 @@ gcc q1.c -o q1
 ./q1
 ```
 
-### For C++ Programs (Lab 2 and onwards)
+### For C++ Programs (Lab 2 to Lab 5)
 
 ```bash
-# Navigate to the lab folder
+# Navigate to the target lab folder
 cd lab_2
 
 # Compile
@@ -78,7 +87,7 @@ g++ q1.cpp -o q1
 
 - Programs are named sequentially (`q1`, `q2`, ..., `q10`) within each lab.
 - **Lab 1** contains C programs (`.c`).
-- **Lab 2 and subsequent labs** contain C++ programs (`.cpp`).
+- **Lab 2 through Lab 5** contain C++ programs (`.cpp`).
 - More lab folders and assignments will be added as the course progresses.
 
 ---
