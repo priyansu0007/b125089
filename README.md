@@ -38,10 +38,16 @@ OOPS-Lab/
 │   ├── ...
 │   └── q10.cpp
 │
+├── Test1_codes/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── ...
+│   └── q5.cpp
+│
 └── README.md
 ```
 
-> Each lab folder contains the source files for the corresponding lab session.
+> Each lab folder contains the source files for the corresponding lab session or test.
 
 ---
 
@@ -68,7 +74,7 @@ gcc q1.c -o q1
 ./q1
 ```
 
-### For C++ Programs (Lab 2 to Lab 5)
+### For C++ Programs (Lab 2 to Lab 5, Test1_codes)
 
 ```bash
 # Navigate to the target lab folder
@@ -87,7 +93,7 @@ g++ q1.cpp -o q1
 
 - Programs are named sequentially (`q1`, `q2`, ..., `q10`) within each lab.
 - **Lab 1** contains C programs (`.c`).
-- **Lab 2 through Lab 5** contain C++ programs (`.cpp`).
+- **Lab 2 through Lab 5** and **Test1_codes** contain C++ programs (`.cpp`).
 - More lab folders and assignments will be added as the course progresses.
 
 ---
