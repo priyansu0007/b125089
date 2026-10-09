@@ -1,6 +1,6 @@
 # OOPS Lab Assignments 🚀
 
-Welcome to my **Object-Oriented Programming Systems (OOPS)** lab repository. This repository contains all my lab assignments, practical programs, and coursework completed as part of the **B.Tech CSE curriculum at IIIT Bhubaneswar**.
+Welcome to my **Object-Oriented Programming Systems (OOPS)** lab repository. This repository contains lab assignments, practical programs, and coursework completed as part of the **B.Tech CSE curriculum at IIIT Bhubaneswar**.
 
 ---
 
@@ -38,6 +38,12 @@ OOPS-Lab/
 │   ├── ...
 │   └── q10.cpp
 │
+├── lab_6/
+│   ├── q1.cpp
+│   ├── q2.cpp
+│   ├── ...
+│   └── q10.cpp
+│
 ├── Test1_codes/
 │   ├── q1.cpp
 │   ├── q2.cpp
@@ -47,24 +53,25 @@ OOPS-Lab/
 └── README.md
 ```
 
-> Each lab folder contains the source files for the corresponding lab session or test.
+Each lab folder contains the source files for its corresponding lab session. `lab 1` contains C programs, while the remaining lab folders and `Test1_codes` contain C++ programs.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Languages:** C, C++
-- **IDE/Editor:** Visual Studio Code
-- **Compilers:** GCC, G++
+* **Languages:** C, C++
+* **IDE/Editor:** Visual Studio Code
+* **Compilers:** GCC, G++
 
 ---
 
 ## 🚀 How to Compile and Run
 
-### For C Programs (Lab 1)
+### For C Programs — Lab 1
+
+Navigate to the lab folder, compile the desired source file, and execute the generated binary.
 
 ```bash
-# Navigate to the lab folder
 cd "lab 1"
 
 # Compile
@@ -74,10 +81,11 @@ gcc q1.c -o q1
 ./q1
 ```
 
-### For C++ Programs (Lab 2 to Lab 5, Test1_codes)
+### For C++ Programs — Labs 2–6 and Test1_codes
+
+For example, to compile and run `q1.cpp` from Lab 2:
 
 ```bash
-# Navigate to the target lab folder
 cd lab_2
 
 # Compile
@@ -87,14 +95,27 @@ g++ q1.cpp -o q1
 ./q1
 ```
 
+Replace `lab_2` with the desired folder and `q1.cpp` with the source file you want to execute.
+
+### Compile with C++17
+
+If a program requires the C++17 standard, use:
+
+```bash
+g++ -std=c++17 q1.cpp -o q1
+./q1
+```
+
 ---
 
 ## 📌 Notes
 
-- Programs are named sequentially (`q1`, `q2`, ..., `q10`) within each lab.
-- **Lab 1** contains C programs (`.c`).
-- **Lab 2 through Lab 5** and **Test1_codes** contain C++ programs (`.cpp`).
-- More lab folders and assignments will be added as the course progresses.
+* Programs are named sequentially (`q1` through `q10`) within each lab folder.
+* **Lab 1:** Contains C source files (`.c`).
+* **Labs 2–6:** Contain C++ source files (`.cpp`).
+* **Test1_codes:** Contains C++ programs for Test 1.
+* `a.out` files are compiled executables generated during compilation and are not source code.
+* More assignments and lab folders may be added as the course progresses.
 
 ---
 
